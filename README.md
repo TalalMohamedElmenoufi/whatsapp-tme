@@ -1,6 +1,5 @@
-[![npm](https://github.com/TalalMohamedElmenoufi/whatsapp-tme.js.svg)](https://github.com/TalalMohamedElmenoufi/whatsapp-tme.js) [![Depfu](https://badges.depfu.com/badges/4a65a0de96ece65fdf39e294e0c8dcba/overview.svg)](https://github.com/TalalMohamedElmenoufi/whatsapp-tme.js?project_id=9765) ![WhatsApp_Web 2.2043.8](https://img.shields.io/badge/WhatsApp_Web-2.2043.8-brightgreen.svg) [![Discord Chat](https://img.shields.io/discord/698610475432411196.svg?logo=discord)](https://discord.gg/H7DqQs4)  
 
-# whatsapp-tme.js
+# whatsapp-tme
 Um cliente de API do WhatsApp que se conecta por meio do aplicativo de navegador da Web WhatsApp
 
 Ele usa o Puppeteer para executar uma instância real do Whatsapp Web para evitar o bloqueio.
@@ -9,14 +8,14 @@ NOTA: Não posso garantir que você não será bloqueado com esse método, embor
 
 ## Installation
 
-The module is now available on npm! `npm i whatsapp-tme.js`
+The module is now available on npm! `npm i whatsapp-tme`
 
 Please note that Node v10.18.1+ is required due to Puppeteer.
 
 ## Example usage
 
 ```js
-const { Client } = require('whatsapp-tme.js');
+const { Client } = require('whatsapp-tme');
 const client = new Client();
 
 client.on('qr', (qr) => {
@@ -37,7 +36,7 @@ client.on('message', msg => {
 client.initialize();
 ```
 
-Dê uma olhada em [example.js] (https://github.com/TalalMohamedElmenoufi/whatsapp-tme.js/blob/master/example.js) para outro exemplo com mais casos de uso.
+Dê uma olhada em [example.js] (https://github.com/TalalMohamedElmenoufi/whatsapp-tme/blob/master/example.js) para outro exemplo com mais casos de uso.
 
 ## Recursos com suporte
 
@@ -46,7 +45,7 @@ Dê uma olhada em [example.js] (https://github.com/TalalMohamedElmenoufi/whatsap
 | Send messages  | ✅  |
 | Receive messages  | ✅  |
 | Send media (images/audio/documents)  | ✅  |
-| Send media (video)  | ✅ [(requires google chrome)](https://github.com/TalalMohamedElmenoufi/whatsapp-tme.js/issues/78#issuecomment-592723583)  |
+| Send media (video)  | ✅ [(requires google chrome)](https://github.com/TalalMohamedElmenoufi/whatsapp-tme/issues/78#issuecomment-592723583)  |
 | Send stickers | _pending_ |
 | Receive media (images/audio/video/documents)  | ✅  |
 | Send contact cards | ✅ |
@@ -70,9 +69,8 @@ Something missing? Make an issue and let us know!
 
 ## Links
 
-* [Reference](https://github.com/TalalMohamedElmenoufi/whatsapp-tme.js)
-* [Guide](https://waguide.pedroslopez.me/) _(work in progress)_
-* [GitHub](https://github.com/TalalMohamedElmenoufi/whatsapp-tme.js)
+* [Reference](https://github.com/TalalMohamedElmenoufi/whatsapp-tme)
+* [GitHub](https://github.com/TalalMohamedElmenoufi/whatsapp-tme)
 
 ## Contribuindo
 
