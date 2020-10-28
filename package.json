@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pedroslopez/whatsapp-web.js.git"
+    "url": "git+https://github.com/TalalMohamedElmenoufi/whatsapp-tme.git"
   },
   "keywords": [
     "whatsapp",
@@ -24,9 +24,9 @@
   "author": "Pedro Lopez",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/pedroslopez/whatsapp-web.js/issues"
+    "url": "https://github.com/TalalMohamedElmenoufi/whatsapp-tme.js/issues"
   },
-  "homepage": "https://github.com/pedroslopez/whatsapp-web.js#readme",
+  "homepage": "https://github.com/TalalMohamedElmenoufi/whatsapp-tme.js#readme",
   "dependencies": {
     "@pedroslopez/moduleraid": "^4.1.0",
     "jsqr": "^1.3.1",
